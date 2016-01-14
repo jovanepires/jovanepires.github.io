@@ -1,4 +1,7 @@
-jovanepires.github.io
-=====================
+This is my simple profile web site
+=========
 
-My Public Profile
+This page is based on a split layout [Codrops](http://www.codrops.com) blueprint.
+
+[article on Codrops](http://tympanus.net/codrops/?p=16693)
+
