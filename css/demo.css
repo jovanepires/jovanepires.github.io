@@ -188,6 +188,13 @@ a:hover {
 	color: rgba(0,0,0,.4);
 }
 
+span.full {
+	display: block;
+}
+span.short {
+	display: none;
+}
+
 @media screen and (max-width: 73.375em) {
 	.codropsheader {
 		text-align: center;
@@ -204,6 +211,13 @@ a:hover {
 	}
 	.codropsheader > span span:after {
 		display: none;
+	}
+
+	span.full {
+		display: none;
+	}
+	span.short {
+		display: block;
 	}
 }
 
