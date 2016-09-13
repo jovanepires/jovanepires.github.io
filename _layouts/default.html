@@ -32,32 +32,9 @@
 						<section>
 							<h2>Skills</h2>
 							<p>
-								<a href="http://jovanepires.com/skills/PHP" title="PHP"> #PHP </a>
-								<a href="http://jovanepires.com/skills/ZendFramework" title="Zend Framework"> #Zend Framework </a>
-								<a href="http://jovanepires.com/skills/MySQL" title="MySQL"> #MySQL </a>
-								<a href="http://jovanepires.com/skills/Magento" title="Magento"> #Magento </a>
-								<a href="http://jovanepires.com/skills/WebDevelopment" title="Web Development"> #WebDevelopment </a>
-								<a href="http://jovanepires.com/skills/DesignPatterns" title="Design Patterns"> #DesignPatterns </a>
-								<a href="http://jovanepires.com/skills/jQuery" title="jQuery"> #jQuery </a>
-								<a href="http://jovanepires.com/skills/Java" title="Java"> #Java </a>
-								<a href="http://jovanepires.com/skills/JavaScript" title="JavaScript"> #JavaScript </a>
-								<a href="http://jovanepires.com/skills/CodeIgniter" title="CodeIgniter"> #CodeIgniter </a>
-								<a href="http://jovanepires.com/skills/WordPress" title="WordPress"> WordPress </a>
-								<a href="http://jovanepires.com/skills/CSS" title="CSS"> #CSS </a>
-								<a href="http://jovanepires.com/skills/HTML" title="HTML"> #HTML </a>
-								<a href="http://jovanepires.com/skills/AJAX" title="AJAX"> #AJAX </a>
-								<a href="http://jovanepires.com/skills/PostgreSQL" title="PostgreSQL"> #PostgreSQL </a>
-								<a href="http://jovanepires.com/skills/Joomla" title="Joomla"> #Joomla </a>
-								<a href="http://jovanepires.com/skills/UML" title="UML"> #UML </a>
-								<a href="http://jovanepires.com/skills/Ruby" title="Ruby"> #Ruby </a>
-								<a href="http://jovanepires.com/skills/SASS" title="SASS"> #SASS </a>
-								<a href="http://jovanepires.com/skills/Git" title="Git"> #Git </a>
-								<a href="http://jovanepires.com/skills/Laravel" title="Laravel"> #Laravel </a>
-								<a href="http://jovanepires.com/skills/GruntJS" title="GruntJS"> #GruntJS </a>
-								<a href="http://jovanepires.com/skills/NoSQL" title="NoSQL"> #NoSQL </a>
-								<a href="http://jovanepires.com/skills/MongoDB" title="MongoDB"> #MongoDB </a>
-								<a href="http://jovanepires.com/skills/NodeJS" title="Node.js"> #NodeJS </a>
-								<a href="http://jovanepires.com/skills/AWS" title="Amazon Web Services"> #AWS </a>
+							{% for skill in site.data.skills %}
+								<a href="#" title="{{ skill }}"> {{ skill }} </a>
+							{% endfor %}
 							</p>
 						</section>
 						<section>
