@@ -47,9 +47,11 @@
 										<h3>{{ work.role}} | <small>{{ work.organization.name }} ({{work.when.begin}} - {{work.when.end}})</small></h3>
 										<p>{{work.description}}</p>
 										<p>
+											<ul>
 											{% for skill in work.skills %}
-											<a href="#" title="{{ skill }}"> {{ skill }} </a>&nbsp;
+												<li> {{ skill }} </li>
 											{% endfor %}
+											</ul>
 										</p>
 									</li>
 									{% endfor %}
