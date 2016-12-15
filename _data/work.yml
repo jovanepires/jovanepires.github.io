@@ -16,11 +16,11 @@
   when: 
     begin: 2015-01
     end: 2016-07
-  organization: Desenvolvimento e manutenção no produto da empresa, o Dyad HRP, um sistema de gestão de planos de saúde
+  organization: 
     name: Dyad
     site: "http://www.dyad.com.br"
   location: Fortaleza/CE
-  description: 
+  description: Desenvolvimento e manutenção no produto da empresa, o Dyad HRP, um sistema de gestão de planos de saúde
   skills: 
     - Programação utilizando JavaScript, Orientação a Objetos, e Padrões de Projetos.
     - Integração entre sistemas, utilizando WebServices.
