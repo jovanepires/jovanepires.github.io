@@ -44,11 +44,12 @@
 								<ul>
 									{% for work in site.data.work %}
 									<li>
-										<h3>({work.when.begin}} - {{work.when.end}}){{ work.role}} | <small>{{ work.organization.name }}</small></h3>
+										<h3>{{ work.role}} | <small>{{ work.organization.name }}</small></h3>
+										<p>({{work.when.begin}} - {{work.when.end}})</p>
 										<p>{{work.description}}</p>
 										<p>
 											{% for skill in work.skills %}
-											<a href="#" title="{{ skill }}"> {{ skill }} </a>
+											<a href="#" title="{{ skill }}"> {{ skill }} </a>&nbsp;
 											{% endfor %}
 										</p>
 									</li>
@@ -63,7 +64,8 @@
 								<ul>
 									{% for edu in site.data.education %}
 									<li>
-										<h3>({edu.when.begin}} - {{edu.when.end}}){{ edu.degree}} | <small>{{ edu.school.name }}</small></h3>
+										<h3>{{ edu.degree}} | <small>{{ edu.school.name }}</small></h3>
+										<p>({{edu.when.begin}} - {{edu.when.end}})</p>
 									</li>
 									{% endfor %}
 								</ul>
@@ -74,7 +76,7 @@
 							<h2>Skills</h2>
 							<p>
 							{% for skill in site.data.skills %}
-								<a href="#" title="{{ skill }}"> {{ skill }} </a>
+								<a href="#" title="{{ skill }}"> {{ skill }} </a>&nbsp;
 							{% endfor %}
 							</p>
 						</section>
