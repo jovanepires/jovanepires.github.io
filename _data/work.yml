@@ -20,7 +20,7 @@
     name: Dyad
     site: "http://www.dyad.com.br"
   location: Fortaleza/CE
-  description: Desenvolvimento e manutenção no produto da empresa, o Dyad HRP, um sistema de gestão de planos de saúde
+  description: Desenvolvimento e manutenção do Dyad HRP, um sistema de gestão de planos de saúde
   skills: 
     - Programação utilizando JavaScript, Orientação a Objetos, e Padrões de Projetos.
     - Integração entre sistemas, utilizando WebServices.
@@ -38,8 +38,8 @@
   description: Desenvolvimento de sites, e aplicativos web
   skills: 
     - Programação utilizando PHP, WordPress, JavaScript, HTML, CSS.
-    - Ferramentas utilizadss: GruntJS, LESS, Git, Adobe Photoshop, Sublime.
-
+    - "Ferramentas utilizadas: GruntJS, LESS, Git, Adobe Photoshop, Sublime."
+    
 - role: Desenvolvedor Web
   when:
     begin: 2012-07
@@ -55,8 +55,8 @@
     - Levantameto de requisitos junto ao Cliente, Análise e Especificação.
     - Acompanhamento de homologação de projetos no cliente.
     - Configuração e manutenção de servidores Linux (Amazon AWS)
-    - Frameworks utilizados: Zend Framework, Joomla, Laravel, Magento, Fuel, CodeIgniter.
-
+    - "Frameworks utilizados: Zend Framework, Joomla, Laravel, Magento, Fuel, CodeIgniter."
+    
 - role: Desenvolvedor Web
   when:
     begin: 2010-02
@@ -68,5 +68,4 @@
   description: Desenvolvimento de sites, e sistemas web
   skills: 
     - Programação utilizando PHP, JavaScript, Orientação a Objetos, e Padrões de Projetos.
-    - Frameworks utilizados: Joomla, CodeIgniter.
-
+    - "Frameworks utilizados: Joomla, CodeIgniter."
