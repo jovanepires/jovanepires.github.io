@@ -39,25 +39,44 @@
 				<div class="page page-left">
 					<div class="page-inner">
 						<section>
+							<h2>Experiências</h2>
+							<p>
+								<ul>
+									{% for work in site.data.work %}
+									<li>
+										<h3>({work.when.begin}} - {{work.when.end}}){{ work.role}} | <small>{{ work.organization.name }}</small></h3>
+										<p>{{work.description}}</p>
+										<p>
+											{% for skill in work.skills %}
+											<a href="#" title="{{ skill }}"> {{ skill }} </a>
+											{% endfor %}
+										</p>
+									</li>
+									{% endfor %}
+								</ul>
+							</p>
+
+						</section>
+						<section>
+							<h2>Formação acadêmica</h2>
+							<p>
+								<ul>
+									{% for edu in site.data.education %}
+									<li>
+										<h3>({edu.when.begin}} - {{edu.when.end}}){{ edu.degree}} | <small>{{ edu.school.name }}</small></h3>
+									</li>
+									{% endfor %}
+								</ul>
+							</p>
+
+						</section>
+						<section>
 							<h2>Skills</h2>
 							<p>
 							{% for skill in site.data.skills %}
 								<a href="#" title="{{ skill }}"> {{ skill }} </a>
 							{% endfor %}
 							</p>
-						</section>
-						<section>
-							<h2>Formação</h2>
-							<p>
-								<ul>
-									{% for edu in site.data.education %}
-									<li>
-										<h3>({edu.when.begin}) - {{edu.when.end}}){{ edu.degree}} | <small>{{ edu.school.name }}</small></h3>
-									</li>
-									{% endfor %}
-								</ul>
-							</p>
-
 						</section>
 						<section>
 							<h2>Links</h2>
