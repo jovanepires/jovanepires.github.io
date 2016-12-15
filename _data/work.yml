@@ -6,15 +6,11 @@
     name: F3M
     site: "http://www.f3m.com.br"
   location: Fortaleza/CE
-  description: 
+  description: Desenvolvimento e manutenção de sistemas
   skills: 
-    - C#
-    - ASP.NET MVC
-    - Entity Framework 
-    - JavaScript
-    - SQL Server
-    - TFS
-    - Scrum
+    - Programação utilizando C#, .NET, e Padrões de Projetos.
+    - Integração entre sistemas, utilizando WebServices.
+    - Utilização de métodologias ágeis (SCRUM).
 
 - role: Web Developer
   when: 
