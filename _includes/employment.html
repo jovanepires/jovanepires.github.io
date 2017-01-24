@@ -1,0 +1,19 @@
+<section class="thirteen columns">
+    <h1>Employment</h1>
+    {% for work in site.data.work %}
+    <article>
+        <header>
+            <h1>{{ work.role }}</h1>
+            <span><address>{{ work.organization.name }}, {{ work.organization.name }}</address><time>{{work.when.begin}} to {{work.when.end}}</time></span>
+        </header>
+        <p>{{work.description}}</p>
+        <p>
+            <ul>
+            {% for skill in work.skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+            </ul>
+        </p>
+    </article>
+    {% endfor %}
+</section>
