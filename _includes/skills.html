@@ -6,12 +6,8 @@
         </header>
         <p>
             <!--<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>-->
-            &nbsp;&nbsp;
             {% for skill in site.data.skills %}
-                <em>{{ skill }}</em>
-                {% if !forloop.last %}
-                    ,&nbsp;
-                {% endif %}
+                <em>{{ skill }}</em>&nbsp;&nbsp;&nbsp;
             {% endfor %}
         </p>
         <!--<p>
