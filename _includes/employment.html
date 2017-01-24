@@ -6,7 +6,7 @@
             <h1>{{ work.role }}</h1>
             <span><address>{{ work.organization.name }}, {{ work.organization.name }}</address><time>{{work.when.begin}} to {{work.when.end}}</time></span>
         </header>
-        <p>{{work.description}}</p>
+        <p>{{work.description}}</p><br>
         <p>
             <ul>
             {% for skill in work.skills %}
