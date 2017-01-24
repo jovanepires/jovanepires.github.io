@@ -13,7 +13,7 @@ author: Jovane Pires
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: //
+baseurl: /
 title: Jovane Pires's Resume
 name: Jovane Pires
 email: jovane.amaro.pires@gmail.com
