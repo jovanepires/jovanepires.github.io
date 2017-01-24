@@ -7,13 +7,13 @@
             <span><address>{{ work.organization.name }}, {{ work.organization.name }}</address><time>{{work.when.begin}} to {{work.when.end}}</time></span>
         </header>
         <p>{{work.description}}</p>
-        
+        <p>
         <ul class="square">
         {% for skill in work.skills %}
             <li>{{ skill }}</li>
         {% endfor %}
         </ul>
-        
+        </p>
     </article>
     {% endfor %}
 </section>
