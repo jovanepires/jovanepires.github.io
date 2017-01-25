@@ -36,7 +36,8 @@ p, address {
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    display: block;
 }
 
 header > h1, section > h1 {
