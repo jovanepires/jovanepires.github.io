@@ -1,5 +1,5 @@
 <section class="thirteen columns">
-    <h1>Education</h1>
+    <h1>Formação Acadêmica</h1>
     {% for edu in site.data.education %}
     <article>
         <header>
@@ -9,7 +9,7 @@
                 {% if edu.school.location %}
                 <address>{{ edu.school.location }}</address>
                 {% endif %}
-                <time>{{edu.when.begin}} to {{edu.when.end}}</time>
+                <time>{{edu.when.begin}} - {{edu.when.end}}</time>
             </span>
         </header>
         <!--<p>
