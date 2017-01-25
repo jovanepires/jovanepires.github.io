@@ -1,10 +1,10 @@
 <section class="thirteen columns">
-    <h1>Employment</h1>
+    <h1>Experiência Profissional</h1>
     {% for work in site.data.work %}
     <article>
         <header>
             <h1>{{ work.role }}</h1>
-            <span><address>{{ work.organization.name }}, {{ work.location }}</address><time>{{work.when.begin}} to {{work.when.end}}</time></span>
+            <span><address>{{ work.organization.name }}, {{ work.location }}</address><time>{{work.when.begin}} - {{work.when.end}}</time></span>
         </header>
         <p>{{work.description}}</p><br />
         <p>
