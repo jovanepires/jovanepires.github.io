@@ -27,9 +27,7 @@
     <header class="four columns">
         <img src="{{ site.baseurl }}static/img/jovane_pires.jpg" class="me">
         <h1>{{ site.name }}</h1>
-        <p>
-            <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-        </p>
+        <em>Web Developer</em>
         <address>
             <a href="#">
                 {{ site.address }}<br/>
@@ -68,5 +66,28 @@
   ga('send', 'pageview');
 
 </script>	
+<script type='application/ld+json'> 
+		{
+		  "@context": "http://www.schema.org",
+		  "@type": "person",
+		  "name": "Jovane Pires",
+		  "jobTitle": "Web Developer",
+		  "url": "http://jovanepires.com",
+		  "sameAs": [
+		    "https://plus.google.com/+JovaneAmaroPires",
+		    "https://twitter.com/jovanepires",
+		    "https://github.com/jovanepires",
+		    "https://br.linkedin.com/in/jovanepires"
+		  ],
+		  "homeLocation": {
+		    "@type": "PostalAddress",
+		    "addressLocality": "Fortaleza",
+		    "addressRegion": "Ceará",
+		    "addressCountry": "Brazil"
+		  },
+		  "email": "jovane.amaro.pires@gmail.com",
+		  "telephone": "+55 85 98775-7544"
+		}
+</script>
 </body>
 </html>
