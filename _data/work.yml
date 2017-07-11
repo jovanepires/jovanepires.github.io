@@ -1,4 +1,4 @@
-- role: Desenvolvedor de Software
+- role: Desenvolvedor de Sistemas Web
   when:
     begin: 2016-08
     end: ATUAL
@@ -8,11 +8,12 @@
   location: Fortaleza/CE
   description: Desenvolvimento e manutenção de sistemas
   skills: 
-    - Programação utilizando C#, .NET, e Padrões de Projetos.
+    - Programação utilizando C#, .NET, JavaScript, e Padrões de Projetos.
     - Integração entre sistemas, utilizando WebServices.
+    - Anlálise e Especificação de Requisitos.
     - Utilização de métodologias ágeis (SCRUM).
 
-- role: Desenvolvedor de Software
+- role: Desenvolvedor de Sistemas Web
   when: 
     begin: 2015-01
     end: 2016-07
@@ -25,9 +26,10 @@
     - Programação utilizando JavaScript, Orientação a Objetos, e Padrões de Projetos.
     - Integração entre sistemas, utilizando WebServices.
     - Acompanhamento de homologação de projetos no cliente.
+    - Anlálise e Especificação de Requisitos.
     - Utilização de metodologias ágeis (SCRUM).
 
-- role: Desenvolvedor Full Stack
+- role: Desenvolvedor Web Full Stack
   when:
     begin: 2014-08
     end: 2014-12
