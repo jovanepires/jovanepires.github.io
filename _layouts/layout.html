@@ -88,7 +88,7 @@
 	
   function handleOutboundLinkClicks(event) {
     ga('send', 'event', {
-      eventCategory: 'Outbound Link',
+      eventCategory: event.target.href,
       eventAction: 'click',
       eventLabel: event.target.href,
       transport: 'beacon'
