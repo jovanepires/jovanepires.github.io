@@ -14,7 +14,7 @@ author: Jovane Pires
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /
-title: "Jovane Pires :: Desenvolvedor Web"
+title: "Jovane Pires :: Desenvolvedor de Sistemas Web"
 name: Jovane Pires
 email: jovane.amaro.pires@gmail.com
 email_full: mailto:jovane.amaro.pires@gmail.com
@@ -22,8 +22,6 @@ website: jovanepires.com
 website_full: https://jovanepires.com
 github: jovanepires
 twitter: jovanepires
-tel: +55 85 98775-7544
-tel_full: tel:+5585987757544
 google_maps: ""
 address: ""
 postcode: ""
