@@ -1,0 +1,33 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://jovanepires.com
+author: Jovane Pires
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: "Jovane Pires :: Desenvolvedor de Sistemas Web"
+name: Jovane Pires
+email: jovane.amaro.pires@gmail.com
+email_full: mailto:jovane.amaro.pires@gmail.com
+website: jovanepires.com
+website_full: https://jovanepires.com
+github: jovanepires
+twitter: jovanepires
+google_maps: ""
+address: ""
+postcode: ""
+city: Fortaleza/CE
+country: Brazil
+google_analytics: UA-41937971-1
+
+# needed for travis-ci build
+exclude: [vendor]

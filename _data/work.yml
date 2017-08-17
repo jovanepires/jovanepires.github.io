@@ -1,0 +1,73 @@
+- role: Desenvolvedor de Sistemas Web
+  when:
+    begin: 2016-08
+    end: ATUAL
+  organization: 
+    name: F3M
+    site: "http://www.f3m.com.br"
+  location: Fortaleza/CE
+  description: Desenvolvimento e manutenção de sistemas
+  skills: 
+    - "Programação utilizando C#, ASP.NET MVC, SQL Server, JavaScript, e Padrões de Projetos."
+    - Integração entre sistemas, utilizando WebServices.
+    - Anlálise e Especificação de Requisitos.
+    - Utilização de métodologias ágeis (SCRUM).
+
+- role: Desenvolvedor de Sistemas Web
+  when: 
+    begin: 2015-01
+    end: 2016-07
+  organization: 
+    name: Dyad
+    site: "http://www.dyad.com.br"
+  location: Fortaleza/CE
+  description: Desenvolvimento e manutenção do Dyad HRP, um sistema de gestão de planos de saúde
+  skills: 
+    - Programação utilizando JavaScript, Orientação a Objetos, e Padrões de Projetos.
+    - Integração entre sistemas, utilizando WebServices.
+    - Acompanhamento de homologação de projetos no cliente.
+    - Anlálise e Especificação de Requisitos.
+    - Utilização de metodologias ágeis (SCRUM).
+
+- role: Desenvolvedor Web Full Stack
+  when:
+    begin: 2014-08
+    end: 2014-12
+  organization: 
+    name: Convertte
+    site: "http://www.convertte.com.br"
+  location: Fortaleza/CE
+  description: Desenvolvimento de sites, e aplicativos web
+  skills: 
+    - Programação utilizando PHP, WordPress, JavaScript, HTML, CSS.
+    - "Ferramentas utilizadas: GruntJS, LESS, Git, Adobe Photoshop, Sublime."
+    
+- role: Desenvolvedor Web
+  when:
+    begin: 2012-07
+    end: 2014-08
+  organization: 
+    name: Orb Digital Branding
+    site: "http://orb.digital"
+  location: Fortaleza/CE
+  description: Desenvolvimento de sites, e-commerce, e sistemas web (SaaS)
+  skills: 
+    - Programação utilizando PHP, JavaScript, Orientação a Objetos, e Padrões de Projetos.
+    - Integração entre sistemas, utilizando WebServices REST, e XML-XPC;
+    - Levantameto de requisitos junto ao Cliente, Análise e Especificação.
+    - Acompanhamento de homologação de projetos no cliente.
+    - Configuração e manutenção de servidores Linux (Amazon AWS)
+    - "Frameworks utilizados: Zend Framework, Joomla, Laravel, Magento, Fuel, CodeIgniter."
+    
+- role: Desenvolvedor Web
+  when:
+    begin: 2010-02
+    end: 2012-02
+  organization: 
+    name: Iativa Tecnologia e Com. Ltda
+    site: "http://www.iativa.com.br"
+  location: Fortaleza/CE
+  description: Desenvolvimento de sites, e sistemas web
+  skills: 
+    - Programação utilizando PHP, JavaScript, Orientação a Objetos, e Padrões de Projetos.
+    - "Frameworks utilizados: Joomla, CodeIgniter."

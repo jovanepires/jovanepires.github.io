@@ -1,0 +1,20 @@
+<section class="thirteen columns">
+    <h1>Formação Acadêmica</h1>
+    {% for edu in site.data.education %}
+    <article>
+        <header>
+            <h1>{{ edu.degree }}</h1>
+            <span>{{ edu.school.name }}</span>
+            <span>
+                {% if edu.school.location %}
+                <address>{{ edu.school.location }}</address>
+                {% endif %}
+                <time>{{edu.when.begin}} - {{edu.when.end}}</time>
+            </span>
+        </header>
+        <!--<p>
+            <em>Thesis: Nemore verear an eos, duo accusam placerat urbanitas at, vix libris putent voluptaria ei.</em>
+        </p>-->
+    </article>
+    {% endfor %}
+</section>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
+    <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="Veja a página de Jovane Pires, sua experiência profissional com desenvolvimento de sistemas para web, e histórico educacional">
+    <meta name="publisher" content="https://plus.google.com/+JovaneAmaroPires?rel=author">
+	
+    <meta name="keywords" content="Jovane Pires, Jovane, Desenvolvedor De Sistemas Web, Desenvolvedor, Sistemas, Desenvolvimento Web, Fortaleza, Analise e Desenvolvimento de Sistemas, Analise e Desenvolvimento">
+    <meta name="theme-color" content="#D35400">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
+    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
+	
+    <meta name="og:title" content="{{ site.name }} :: Desenvolvedor de Sistemas Web" />
+    <meta name="og:type" content="profile" />
+    <meta name="og:image" content="{{ site.baseurl }}static/img/jovane_pires.jpg" />
+    <meta name="og:locale" content="pt_BR" />
+    <meta name="og:url" content="http://jovanepires.com/" />
+    <meta name="profile:first_name" content="Jovane" />
+    <meta name="profile:last_name" content="Pires" />
+    <meta property="profile:gender" content="male">
+    <meta property="profile:username" content="jovanepires">
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@jovanepires" />
+    <meta name="twitter:title" content="{{ site.name }} :: Desenvolvedor de Sistemas Web" />
+    <meta name="twitter:description" content="Veja a página de Jovane Pires, sua experiência profissional com desenvolvimento de sistemas para web, e histórico educacional" />
+    <meta name="twitter:image" content="{{ site.baseurl }}static/img/jovane_pires.jpg" />
+</head>
+<body>
+<div class="container">
+    <header class="five columns">
+        <img src="{{ site.baseurl }}static/img/jovane_pires.jpg" class="me">
+        <h1>{{ site.name }}</h1>
+        <em>Desenvolvedor de Sistemas Web</em>
+        <address>
+            <a href="#" onclick="handleOutboundLinkClicks(this)">
+                {{ site.address }}<br/>
+                <!--{{ site.postcode }}<br/>-->
+                {{ site.city }}<br/>
+                {{ site.country }}
+            </a>
+        </address>
+        <p>
+            <a href="{{ site.website_full }}" onclick="handleOutboundLinkClicks(this)">{{ site.website }}</a><br/>
+            <a href="{{ site.email_full }}" target="_blank" onclick="handleOutboundLinkClicks(this)">{{ site.email }}</a>
+        </p>
+        <p>
+            <a href="https://github.com/{{ site.github }}" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fa fa-github"></i> Github</a><br/>
+            <a href="https://twitter.com/{{ site.twitter }}" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fa fa-twitter"></i> Twitter</a><br/>
+            <a href="https://plus.google.com/+JovaneAmaroPires?rel=author" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fa fa-google-plus"></i> Google+</a>
+        </p>
+    </header>
+    <div class="eleven columns clearfix">
+
+        {{ content }}
+
+    <footer class="thirteen columns">
+        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/" target="_blank" onclick="handleOutboundLinkClicks(this)">Jekyll</a> and
+            <a href="https://www.github.com/biomadeira/vitae" target="_blank" onclick="handleOutboundLinkClicks(this)">Vitae</a> with ♥</p>
+    </footer>
+    </div>
+</div>
+<a href="https://github.com/jovanepires/jovanepires.github.io" title="fork me on github" target="_blank" onclick="handleOutboundLinkClicks(this)"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.google_analytics }}', 'auto');
+  ga('send', 'pageview');
+	
+  function handleOutboundLinkClicks(event) {
+    ga('send', 'event', {
+      eventCategory: event.target.href,
+      eventAction: 'click',
+      eventLabel: event.target.href,
+      transport: 'beacon'
+    });
+  }
+
+</script>	
+<script type='application/ld+json'> 
+		{
+		  "@context": "http://www.schema.org",
+		  "@type": "person",
+		  "name": "Jovane Pires",
+		  "jobTitle": "Desenvolvedor de Sistemas Web",
+		  "url": "https://plus.google.com/+JovaneAmaroPires?rel=author",
+		  "sameAs": [
+		    "https://twitter.com/jovanepires",
+		    "https://github.com/jovanepires",
+		    "https://br.linkedin.com/in/jovanepires"
+		  ],
+		  "homeLocation": {
+		    "@type": "PostalAddress",
+		    "addressLocality": "Fortaleza",
+		    "addressRegion": "Ceará",
+		    "addressCountry": "Brazil"
+		  },
+		  "email": "jovane.amaro.pires@gmail.com",
+		  "telephone": "+55 085 98775-7544"
+		}
+</script>
+</body>
+</html>
