@@ -7,6 +7,8 @@
     site: "http://proteus.com.br/"
   location: Fortaleza/CE
   description: Desenvolvimento e manutenção de sistemas
+  skills:
+    - "C#, ASP.NET MVC, ASP.NET WebAPI, SQL Server, JavaScript."
 
 - role: Desenvolvedor de Sistemas Web
   when:
