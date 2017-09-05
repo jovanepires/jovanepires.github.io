@@ -7,11 +7,6 @@
     site: "http://proteus.com.br/"
   location: Fortaleza/CE
   description: Desenvolvimento e manutenção de sistemas
-  skills: 
-    - "Programação utilizando C#, ASP.NET MVC, SQL Server, JavaScript, e Padrões de Projetos."
-    - Integração entre sistemas, utilizando WebServices.
-    - Anlálise e Especificação de Requisitos.
-    - Utilização de métodologias ágeis (SCRUM).
 
 - role: Desenvolvedor de Sistemas Web
   when:
