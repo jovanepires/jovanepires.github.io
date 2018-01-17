@@ -41,7 +41,7 @@
     - Análise e Especificação de Requisitos.
     - Utilização de metodologias ágeis (SCRUM).
 
-- role: Desenvolvedor Web Full Stack
+- role: Desenvolvedor Web
   when:
     begin: 2014-08
     end: 2014-12
