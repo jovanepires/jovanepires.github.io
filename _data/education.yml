@@ -1,0 +1,35 @@
+- degree: "Especialização, Ciência de Dados"
+  school:
+    name: "Centro Universitário 7 de Setembro - UNI7"
+    site: "http://www.uni7.edu.br/"
+    location: Fortaleza/CE
+  when:
+    begin: 2017
+    end: 2019
+
+- degree: "Análise e Desenvolvimento de Sistemas"
+  school:
+    name: "Universidade Estácio de Sá"
+    site: "http://portal.estacio.br/"
+    location: Fortaleza/CE
+  when:
+    begin: 2014
+    end: 2017
+
+- degree: "Bacharelado em Ciência da Computação"
+  school:
+    name: "Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE"
+    site: "http://ifce.edu.br/"
+    location: "Maracanaú/CE"
+  when:
+    begin: 2010
+    end: 2014
+
+- degree: "Técnico em Informática (Desenvolvimento de Software)"
+  school:
+    name: "Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE"
+    site: "http://ifce.edu.br/"
+    location: "Maracanaú/CE"
+  when:
+    begin: 2008
+    end: 2010

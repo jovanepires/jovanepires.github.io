@@ -1,0 +1,15 @@
+<section>
+    <div class="mb-4">
+      <h2>Habilidades e Conhecimentos</h2>
+    </div>
+    <dl>
+    {% for skill in site.data.skills %}
+      <dt>{{ skill.category.name }}</dt>
+      <dd>
+        {% for item in skill.category.skills %}
+        <span class="badge badge-light border">{{ item }}</span>
+        {% endfor %}
+      </dd>
+    {% endfor %}
+    </dl>
+</section>

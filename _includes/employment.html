@@ -1,0 +1,21 @@
+<div class="mb-3">
+  <div class="mb-4">
+    <h2>Experiência Profissional</h2>
+  </div>
+  {% for work in site.data.work %}
+  <div class="border-bottom mb-3">
+    <div>
+        <h5 class="card-title">{{ work.role }}</h5>
+        <span><address>{{ work.organization.name }}, {{ work.location }}</address><time>{{work.when.begin}} - {{work.when.end}}</time></span>
+        <p>{{work.description}}</p>
+        <p>
+        <ul class="square">
+        {% for skill in work.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        </ul>
+        </p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
