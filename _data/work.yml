@@ -1,6 +1,6 @@
 - role: Desenvolvedor de Software
   when:
-    begin: 2017-08
+    begin: "08/2017"
     end: ATUAL
   organization:
     name: Proteus
@@ -12,8 +12,8 @@
 
 - role: Desenvolvedor de Software
   when:
-    begin: 2016-08
-    end: 2017-08
+    begin: "08/2016"
+    end: "08/2017"
   organization:
     name: F3M
     site: "http://www.f3m.com.br"
@@ -27,8 +27,8 @@
 
 - role: Desenvolvedor de Software
   when:
-    begin: 2015-01
-    end: 2016-07
+    begin: "01/2015"
+    end: "07/2016"
   organization:
     name: Dyad
     site: "http://www.dyad.com.br"
@@ -43,8 +43,8 @@
 
 - role: Desenvolvedor Web
   when:
-    begin: 2014-08
-    end: 2014-12
+    begin: "08/2014"
+    end: "12/2014"
   organization:
     name: Convertte
     site: "http://www.convertte.com.br"
@@ -56,8 +56,8 @@
 
 - role: Desenvolvedor Web
   when:
-    begin: 2012-07
-    end: 2014-08
+    begin: "07/2012"
+    end: "08/2014"
   organization:
     name: Orb Digital Branding
     site: "http://orb.digital"
@@ -73,8 +73,8 @@
 
 - role: Desenvolvedor Web
   when:
-    begin: 2010-02
-    end: 2012-02
+    begin: "02/2010"
+    end: "02/2012"
   organization:
     name: Iativa Tecnologia e Com. Ltda
     site: "http://www.iativa.com.br"

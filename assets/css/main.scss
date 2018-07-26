@@ -4,3 +4,27 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import "bootstrap"; // main partials
+
+.page-header {
+  // text-align: center;
+  color: #fff;
+  background: #d35400;
+  width:100%;
+  // height: 250px;
+  overflow: hidden;
+  padding: 50px 0;
+  margin-bottom: 50px;
+  top: 0;
+  left: 0;
+}
+
+.page-content {
+  z-index: 2;
+}
+
+.left-line span {
+  width: 100%;
+  display: block;
+  height: 50%;
+  border-bottom: 5px solid #d35400
+}

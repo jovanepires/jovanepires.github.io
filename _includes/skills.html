@@ -1,15 +1,20 @@
-<section>
-    <div class="mb-4">
-      <h2>Habilidades e Conhecimentos</h2>
+<div class="mb-3">
+    <div class="row mb-3">
+      <div class="col-2 px-0 left-line"><span></span></div>
+      <div class="col-10"><h3>Habilidades e Conhecimentos</h3></div>
     </div>
-    <dl>
     {% for skill in site.data.skills %}
-      <dt>{{ skill.category.name }}</dt>
-      <dd>
+    <div class="row mb-3">
+      <div class="col-2 px-0 text-right">
+        {{ skill.category.name }}
+      </div>
+
+      <div class="col-10">
         {% for item in skill.category.skills %}
-        <span class="badge badge-light border">{{ item }}</span>
+        {{ item }}{% if forloop.last %}.&nbsp;{% else %},&nbsp;{% endif %}
         {% endfor %}
-      </dd>
+      </div>
+    </div>
     {% endfor %}
-    </dl>
-</section>
+
+</div>
