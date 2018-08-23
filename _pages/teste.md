@@ -1,7 +1,7 @@
 ---
 title: My page
 layout: default
-permalink: "index.html"
+permalink: "teste.html"
 ---
 
 <div class="row">

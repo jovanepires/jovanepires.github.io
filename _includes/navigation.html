@@ -1,8 +1,7 @@
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-0 bg-white box-shadow d-print-none">
-  <h5 class="my-0 mr-md-auto font-weight-normal"></h5>
-  <nav class="my-2 my-md-0 mr-md-3">
+<div class="d-flex-row">
+  <nav class="d-flex justify-content-center align-items-center align-content-center">
     {% for nav in site.data.navigation.main %}
-    <a class="p-2 text-dark" href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a>
+    <div class="p-2 border border-white mx-2 mt-5"><a class="p-2 text-white" href="{{nav.url}}" title="{{nav.title}}">{{nav.title}}</a></div>
     {% endfor %}
   </nav>
 </div>

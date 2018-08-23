@@ -2,44 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="Veja a página de Jovane Pires, sua experiência profissional com desenvolvimento de sistemas para web, e histórico educacional">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+
     <meta name="author" content="Jovane Pires">
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   </head>
 
   <body>
-    {% include navigation.html %}
     <header class="page-header" >
       <div class="container">
-        <div class="row">
-            <div class="d-inline-flex align-items-start">
+        <div class="d-row">
+            <div class="d-flex justify-content-center align-items-center align-content-center">
               <div class="p-2">
-                <img src="https://s.gravatar.com/avatar/f78d1158d3624507c05fb43230219ef1?s=115" alt="" class="img-thumbnail img-responsive">
-              </div>
-              <div class="p-2">
-                <h1>JOVANE PIRES</h1>
-                <h4>Desenvolvedor de Software</h4>
-              </div>
-              <div class="pt-5 text-right">&nbsp;</div>
-              <div class="pt-5 text-right">
-                <a class="text-white" href="https://github.com/jovanepires" target="_blank" onclick="handleOutboundLinkClicks(this)">
-                  <i class="fab fa-github"></i> Github: @jovanepires
-                </a><br />
-                <a class="text-white" href="https://twitter.com/jovanepires" target="_blank" onclick="handleOutboundLinkClicks(this)">
-                  <i class="fab fa-twitter"></i> Twitter: @jovanepires
-                </a><br />
-                <a class="text-white" href="mailto:jovane.amaro.pires@gmail.com">
-                  <i class="far fa-envelope"></i>&nbsp;E-mail: jovane.amaro.pires[at]gmail.com
-                </a>
+                <img src="https://s.gravatar.com/avatar/f78d1158d3624507c05fb43230219ef1?s=115" alt="" class="img-thumbnail rounded-circle img-fluid">
               </div>
             </div>
         </div>
-    </div>
+        <div class="d-row">
+          <div class="d-flex justify-content-center align-items-center align-content-center">
+              <div class="p-2 text-center mt-2">
+                <h1>JOVANE PIRES</h1>
+                <h4>Desenvolvedor de Software</h4>
+              </div>
+              
+            </div>
+        </div>        
+      </div>
     </header>
+    
     <main role="main" class="container">
      {{ content }}
     </main><!-- /.container -->
+
+    <footer class="container">
+      <div class="d-flex justify-content-center align-items-center align-content-center border-top my-5">
+        <div class="p-2 mx-3 my-2"><a class="text-dark" href="https://github.com/jovanepires" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fab fa-github"></i> Github</a></div>
+        <div class="p-2 mx-3 my-2"><a class="text-dark" href="https://twitter.com/jovanepires" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fab fa-twitter"></i> Twitter</a></div>
+        <div class="p-2 mx-3 my-2"><a class="text-dark" href="https://plus.google.com/+JovaneAmaroPires?rel=author" target="_blank" onclick="handleOutboundLinkClicks(this)"><i class="fab fa-google-plus"></i> Google+</a></div>
+      </div>
+    </footer>
   </body>
 </html>

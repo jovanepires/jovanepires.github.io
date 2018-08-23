@@ -1,7 +1,7 @@
 ---
-title: My page
+title: "Jovane Pires :: Desenvolvedor de Software"
 layout: curriculum
-permalink: "/"
+permalink: "index.html"
 ---
 
 <div class="row">

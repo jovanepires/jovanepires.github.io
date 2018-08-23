@@ -8,3 +8,21 @@ sass:
     style: compressed
 
 include: ['_pages', '_categories']
+
+title: "Jovane Pires :: Desenvolvedor de Software"
+name: Jovane Pires
+email: jovane.amaro.pires@gmail.com
+email_full: mailto:jovane.amaro.pires@gmail.com
+website: jovanepires.com
+website_full: https://jovanepires.com
+github: jovanepires
+twitter: jovanepires
+google_maps: ""
+address: ""
+postcode: ""
+city: Fortaleza/CE
+country: Brazil
+google_analytics: UA-41937971-1
+
+# needed for travis-ci build
+exclude: [vendor]
