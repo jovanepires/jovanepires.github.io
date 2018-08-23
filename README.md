@@ -6,6 +6,9 @@ Vitae is built with [skeleton](http://getskeleton.com/), powered by [Jekyll](htt
 hosted in [Github pages](https://pages.github.com/).
 
 
+![jovanepires.com](https://raw.githubusercontent.com/jovanepires/jovanepires.github.io/master/static/img/site_v1_lg.png)
+
+
 
 ## Copyright & License
 
