@@ -5,7 +5,7 @@
   organization:
     name: Crawly
     site: "http://crawly.com.br/"
-  location: Fortaleza/CE
+  location: Fortaleza/CE (Remoto)
   description: Desenvolvimento e manutenção de sistemas
   skills:
     - "JavaScript, TypeScript, Serverless (AWS Lambda), Node.JS, TDD."
@@ -17,7 +17,7 @@
   organization:
     name: Proteus
     site: "http://proteus.com.br/"
-  location: Fortaleza/CE
+  location: Fortaleza/CE (Remoto)
   description: Desenvolvimento e manutenção de sistemas
   skills:
     - "C#, ASP.NET MVC, ASP.NET WebAPI, SQL Server, JavaScript."
