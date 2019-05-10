@@ -1,7 +1,19 @@
+- role: Desenvolvedor de Software Senior
+  when:
+    begin: "01/2019"
+    end: ATUAL
+  organization:
+    name: Crawly
+    site: "http://crawly.com.br/"
+  location: Fortaleza/CE
+  description: Desenvolvimento e manutenção de sistemas
+  skills:
+    - "JavaScript, TypeScript, Serverless (AWS Lambda), Node.JS, TDD."
+    
 - role: Desenvolvedor de Software
   when:
     begin: "08/2017"
-    end: ATUAL
+    end: "12/2018"
   organization:
     name: Proteus
     site: "http://proteus.com.br/"
