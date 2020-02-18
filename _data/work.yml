@@ -1,10 +1,22 @@
+- role: Cientista/Engenheiro de Dados
+  when:
+    end: "09/2019"
+    end: ATUAL
+  organization:
+    name: Atlântico
+    site: "https://www.atlantico.com.br/"
+  location: "Fortaleza/CE"
+  description: Extração de dados, análise, e desenvolvimento de modelos de aprendizagem de máquina.
+  skills:
+    - "Python, Flask Framework, Docker, Machine Learning"
+
 - role: Desenvolvedor de Software Senior
   when:
     begin: "01/2019"
-    end: ATUAL
+    end: "09/2019"
   organization:
     name: Crawly
-    site: "http://crawly.com.br/"
+    site: "https://crawly.com.br/"
   location: "Fortaleza/CE (Remoto)"
   description: Desenvolvimento e manutenção de sistemas
   skills:
