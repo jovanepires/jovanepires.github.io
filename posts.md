@@ -1,7 +1,7 @@
 ---
 title: "Jovane Pires :: Desenvolvedor de Software"
 layout: archive
-permalink: "posts"
+permalink: "arquivo"
 ---
 
 <div class="row">
