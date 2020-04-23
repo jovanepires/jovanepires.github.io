@@ -30,11 +30,12 @@
         event.preventDefault();
         event.stopPropagation();
 
-        ga('send', 'event', {
-          eventCategory: 'Outbound Link',
-          eventAction: 'click',
-          eventLabel: event.target.href
-        });
+        if ("gtag" in window) {
+          gtag('event', 'click', {
+            'event_category' : 'Outbound Link',
+            'event_label' : 'event.target.href'
+          });
+        }
 
         return true;
       }
