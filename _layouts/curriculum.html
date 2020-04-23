@@ -27,11 +27,15 @@
         enable_page_level_ads: true
       });
       function handleOutboundLinkClicks(event) {
+        event.preventDefault();
+
         ga('send', 'event', {
           eventCategory: 'Outbound Link',
           eventAction: 'click',
           eventLabel: event.target.href
         });
+
+        return true;
       }
     </script>
   </head>
