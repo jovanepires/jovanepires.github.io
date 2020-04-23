@@ -32,8 +32,8 @@
 
         if ("gtag" in window) {
           gtag('event', 'click', {
-            'event_category' : 'Outbound Link',
-            'event_label' : 'event.target.href'
+            'event_category' : 'outbound_link',
+            'event_label' : event.target.href,
           });
         }
 
