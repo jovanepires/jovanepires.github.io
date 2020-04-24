@@ -7,7 +7,7 @@ permalink: "index.html"
 <div class="row">
   <div class="col-12">
 
-    <p>Jovane Pires é um Engenheiro de Software Sênior, Entusiasta em <i>Data Science</i>, e admirador de novas tecnologias.
+    <p>Jovane Pires é um Engenheiro de Software, Entusiasta em <i>Data Science</i>, e admirador de novas tecnologias.
     Atualmente Cientista de Dados no <a class="text-decoration" href="http://www.atlantico.com.br/" target="_blank">Instituto Atlântico</a>, onde desenvolve modelos preditivos utilizando <i>Machine Learning</i>, bem como a infraestrutura necessária para disponibilizar os modelos em um ambiente de produção totalmente escalável.</p>
     
     <p>Anteriormente, Engenheiro de Software Sênior na <a class="text-decoration" href="https://www.crawly.com.br/?utm_source=https://jovanepires.com" target="_blank">Crawly</a>, onde implementava robôs inteligentes para extrair e tratar informações contidas em páginas web e aplicativos móveis.</p>
