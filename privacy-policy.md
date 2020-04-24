@@ -1,7 +1,7 @@
 ---
-title: My page
+title: Política de Privacidade
 layout: curriculum
-permalink: "politica-de-privacidade.html"
+permalink: "potilica-de-privacidade.html"
 ---
 
 <div class="row">
