@@ -7,7 +7,7 @@ permalink: "index.html"
 <div class="row">
   <div class="col-12">
 
-    <p>Jovane Pires é um Engenheiro de Software, Entusiasta em <i>Data Science</i>, e admirador de novas tecnologias.</p>
+    <p>Jovane Pires é um Cientista de Dados com um forte background em Desenvolvimento e Arquitetura de Software, além de entusiasta de novas tecnologias.</p>
     
     <p>Atualmente Cientista de Dados no <a class="text-decoration" href="http://www.atlantico.com.br/" target="_blank">Instituto Atlântico</a>, onde desenvolve modelos preditivos utilizando <i>Machine Learning</i>, bem como a infraestrutura necessária para disponibilizar os modelos em um ambiente de produção totalmente escalável.</p>
     
