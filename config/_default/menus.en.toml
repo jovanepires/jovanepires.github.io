@@ -1,20 +1,20 @@
-  [[main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+#  [[main]]
+#  name = "Home"
+#  identifier = "home"
+#  weight = 100
+#  url = "/"
 
-  [[main]]
-  name = "Blog"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
+#  [[main]]
+#  name = "Blog"
+#  weight = 200
+#  identifier = "posts"
+#  url = "/post/"
 
   [[main]]
   name = "About"
   weight = 300
   identifier = "about"
-  url = "/about/"
+  url = "/"
 
 #  [[main]]
 #  name = "Contact"
@@ -22,8 +22,8 @@
 #  identifier = "contact"
 #  url = "/contact/"
 
-  [[footer]]
-  name = "imprint"
-  weight = 1
-  identifier = "imprint"
-  url = "/imprint/"
+#  [[footer]]
+#  name = "imprint"
+#  weight = 1
+#  identifier = "imprint"
+#  url = "/imprint/"

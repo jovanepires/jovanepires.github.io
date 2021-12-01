@@ -6,11 +6,11 @@ contentDir = "content/br"
 weight = 1
 LanguageName = "BR"
 
-[en]
-title = "Jovane Pires"
-jobtitle = "Data Engineering Specialist"
-#description = "Data Engineering | Software Engineering"
-weight = 2
-LanguageName = "EN"
-contentDir = "content/en"
+# [en]
+# title = "Jovane Pires"
+# jobtitle = "Data Engineering Specialist"
+# #description = "Data Engineering | Software Engineering"
+# weight = 2
+# LanguageName = "EN"
+# contentDir = "content/en"
 

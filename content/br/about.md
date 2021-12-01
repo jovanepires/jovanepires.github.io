@@ -1,12 +1,13 @@
 +++
 title = "Sobre"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about", "sobre"]
+description = "Jovane Pires é um Engenheiro de Dados, entusiasta em Data Science, e atento a novas tecnologias..."
+date = "2021-04-28"
+aliases = ["sobre"]
 author = "Jovane Pires"
+url = "/"
 +++
 
- <p>Jovane Pires é um Engenheiro de Dados, entusiasta em <i>Data Science</i>, e atento a novas tecnologias.
+<p>Jovane Pires é um Engenheiro de Dados, entusiasta em <i>Data Science</i>, e atento a novas tecnologias.
 Atualmente Engenheiro de Dados no <a class="text-decoration" href="https://www.passeidireto.com.br/" target="_blank">Passei Direto</a>, onde faz parte do time de <i>Data Platform</i>, construindo uma plataforma com o objetivo de democratizar o acesso aos dados.</p>
 
 <p>Vindo de uma posição como Cientista de Dados no <a class="text-decoration" href="https://www.atlantico.com.br/" target="_blank">Instituto Atlântico</a>, onde desenvolveu modelos preditivos utilizando <i>Machine Learning</i>, bem como a infraestrutura necessária para disponibilizar os modelos em um ambiente de produção totalmente escalável.</p>
