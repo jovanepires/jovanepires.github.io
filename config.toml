@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://jovanepires.com/"
 languageCode = "pt-br"
 theme = "hugo-winston-theme"
 themesDir = "themes"
