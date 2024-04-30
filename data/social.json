@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "github",
+      "url": "https://github.com/jovanepires#utm_source=jovanepires.com",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/jovanepires/#utm_source=jovanepires.com",
+      "image": "images/social/linkedin.svg"
+    }
+  ]
+}
