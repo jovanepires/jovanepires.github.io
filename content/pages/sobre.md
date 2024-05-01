@@ -1,27 +1,22 @@
 ---
 title: 'Sobre'
+description: "Ao longo da minha carreira, tenho me dedicado à engenharia de dados e ao desenvolvimento de software, desempenhando papéis significativos em diversas organizações. Atualmente, atuo como Especialista em Engenharia de Dados na ZUP, onde colaboro em projetos no Itaú, focando na construção de ferramentas para otimização dos processos de engenharia de dados."
 url: "/sobre/"
 # image: images/about.jpg
 ---
 
 ## Experiência Profissional
 
-Com uma trajetória profissional dedicada à **engenharia de dados e ao desenvolvimento de software**, tive a oportunidade de assumir papéis significativos em diferentes organizações. Atualmente desenpenho o papel de **Especialista em Engenharia de Dados na ZUP**, atuando em projetos no Itaú, onde colaboro com a construção de ferramentas para otimizar os processos de times de engenharia de dados.
+Ao longo da minha carreira, tenho me dedicado à Engenharia de Dados e ao Desenvolvimento de Software, desempenhando papéis significativos em diversas organizações. Atualmente, atuo como Especialista em Engenharia de Dados na ZUP, onde colaboro em projetos no Itaú, focando na construção de ferramentas para otimização dos processos de engenharia de dados.
 
-Sobre as experiências anteriores, na **Agenda Edu**, pude liderar iniciativas importantes, como a implementação de uma cultura orientada a dados e a definição de estratégias de plataforma. Já na **Passei Direto**, contribuí para a otimização da ingestão de dados e projetos de governança. Minha experiência também inclui trabalhos no **Instituto Atlântico**, onde participei ativamente em projetos de Machine Learning e Análise de Dados. 
+Anteriormente, na Agenda Edu, liderei iniciativas cruciais, como a implementação de uma cultura orientada a dados e estratégias de plataforma. Na Passei Direto, contribuí para a otimização da ingestão de dados e projetos de governança. Também acumulei experiência no Instituto Atlântico, participando ativamente de projetos de Machine Learning e Análise de Dados.
 
-Minha jornada na **Engenharia de Software** foi marcada por uma série de experiências enriquecedoras em diferentes áreas da tecnologia. Como desenvolvedor backend, tive a oportunidade de trabalhar em projetos diversos, desde o desenvolvimento de sites e sistemas web até a implementação de soluções mais complexas. Ao longo desses projetos, desenvolvi habilidades sólidas em diversas linguagens de programação, frameworks e tecnologias, que me permitiram atuar de forma abrangente em todas as etapas do ciclo de desenvolvimento de software.
+Minha jornada na Engenharia de Software abrangeu diversas áreas, onde desenvolvi habilidades sólidas em várias linguagens de programação, frameworks e tecnologias. Como desenvolvedor backend, trabalhei em uma variedade de projetos, desde desenvolvimento de sites e sistemas web até a implementação de soluções mais complexas.
 
-Essas experiências me proporcionaram um **entendimento abrangente do mundo da tecnologia**, desde o desenvolvimento de software até a análise de requisitos e a implementação de soluções eficazes. Cada desafio enfrentado e cada projeto concluído contribuíram para o meu crescimento profissional e me capacitaram a enfrentar novos desafios
-
+Essas experiências proporcionaram um entendimento abrangente do mundo da tecnologia, desde o desenvolvimento de software até a implementação de soluções eficazes. Cada desafio enfrentado e projeto concluído contribuíram para meu crescimento profissional e me capacitaram para novos desafios.
 
 ## Formação Acadêmica
 
-Meu histórico acadêmico é uma jornada de aprendizado contínuo e dedicação ao conhecimento. Comecei com um curso **Técnico em Informática no Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE**, estabelecendo uma base sólida em conceitos fundamentais de desenvolvimento de software. Meu percurso acadêmico inclui outra passagem pela IFCE, onde cursei boa parte do **Bacharelado em Ciência da Computação**. Embora não tenha concluído o curso, essa experiência proporcionou-me embasamento em conceitos fundamentais de computação. Posteriormente, transferi minha matrícula para a Estácio de Sá, onde concluí o **Tecnólogo em Análise e Desenvolvimento de Sistemas**.
+Meu percurso acadêmico reflete minha busca contínua por conhecimento. Iniciei com um curso Técnico em Informática no Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE, estabelecendo uma base sólida em conceitos fundamentais de desenvolvimento de software. Posteriormente, cursei boa parte do Bacharelado em Ciência da Computação, embora não tenha concluído o curso, adquirindo conhecimentos essenciais.
 
-Além disso, dediquei-me a especializações na área de dados. Concluí uma **Especialização em Ciência de Dados, no Centro Universitário 7 de Setembro - UNI7**, e atualmente cursando **Governança de Dados na Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS**, consolidando assim meu conhecimento em áreas que me interessam e nas quais venho estudando há algum tempo. Essa trajetória acadêmica me proporcionou uma preparação sólida para enfrentar os desafios do mercado de trabalho com confiança e determinação.
-
-
-
-
-
+Transferi-me para a Estácio de Sá, onde concluí o Tecnólogo em Análise e Desenvolvimento de Sistemas. Além disso, busquei especializações na área de dados, concluindo uma Especialização em Ciência de Dados na UNI7 e atualmente cursando Governança de Dados na PUCRS. Essa trajetória acadêmica solidificou meu preparo para enfrentar os desafios do mercado de trabalho com confiança e determinação.
