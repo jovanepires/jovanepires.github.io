@@ -70,9 +70,7 @@ O efeito mais relevante não foi velocidade. Foi confiança. Time que testa incr
 
 Em escala de milhares de jobs, essa diferença se traduz em incidentes evitados toda semana.
 
----
-
-**Takeaways:**
+## Takeaways
 
 - Ambiente de testes em nuvem valida integração. Pytest com Spark local valida lógica. São responsabilidades diferentes e merecem ferramentas diferentes.
 - Mock em Spark testa simulação. Spark local com dados sintéticos testa comportamento real — com custo de segundos, não de minutos.
