@@ -2,7 +2,7 @@
 title: "15 minutos por tentativa. Era assim que testávamos jobs Glue."
 date: 2024-06-15T00:00:00-03:00
 description: "Como uma fixture de pytest mudou o ciclo de desenvolvimento de centenas de squads — sem mudar uma linha de infraestrutura."
-image: images/cctv.jpeg
+image: images/spark-pytest-terminal.jpg
 draft: false
 tags: ["data-engineering", "aws-glue", "pyspark", "pytest", "unit-testing", "spark", "developer-experience", "engenharia-de-dados"]
 ---
