@@ -1,22 +1,32 @@
 ---
 title: 'Sobre'
-description: "Ao longo da minha carreira, tenho me dedicado à engenharia de dados e ao desenvolvimento de software, desempenhando papéis significativos em diversas organizações. Atualmente, atuo como Especialista em Engenharia de Dados na ZUP, onde colaboro em projetos no Itaú, focando na construção de ferramentas para otimização dos processos de engenharia de dados."
+description: "Staff Data Engineer na ZUP Innovation, no time de plataforma de dados do Itaú Unibanco. Escrevo sobre as decisões que tomei, as que evitaria hoje, e as que ainda não têm resposta clara."
 url: "/sobre/"
 # image: images/about.jpg
 ---
 
-## Experiência Profissional
+Comecei programando em PHP em 2010. Passei por agências, startups e empresas de diferentes setores. Construí sistemas, vi software virar produto, produto virar negócio.
 
-Ao longo da minha carreira, tenho me dedicado à Engenharia de Dados e ao Desenvolvimento de Software, desempenhando papéis significativos em diversas organizações. Atualmente, atuo como Especialista em Engenharia de Dados na ZUP, onde colaboro em projetos no Itaú, focando na construção de ferramentas para otimização dos processos de engenharia de dados.
+Essa base de engenharia de software ficou comigo — e hoje percebo o quanto ela molda como enxergo dados. Penso em pipeline como sistema, em dado como contrato, em confiabilidade como consequência de decisões de design, não de sorte.
 
-Anteriormente, na Agenda Edu, liderei iniciativas cruciais, como a implementação de uma cultura orientada a dados e estratégias de plataforma. Na Passei Direto, contribuí para a otimização da ingestão de dados e projetos de governança. Também acumulei experiência no Instituto Atlântico, participando ativamente de projetos de Machine Learning e Análise de Dados.
+Foi com essa cabeça que migrei para dados.
 
-Minha jornada na Engenharia de Software abrangeu diversas áreas, onde desenvolvi habilidades sólidas em várias linguagens de programação, frameworks e tecnologias. Como desenvolvedor backend, trabalhei em uma variedade de projetos, desde desenvolvimento de sites e sistemas web até a implementação de soluções mais complexas.
+---
 
-Essas experiências proporcionaram um entendimento abrangente do mundo da tecnologia, desde o desenvolvimento de software até a implementação de soluções eficazes. Cada desafio enfrentado e projeto concluído contribuíram para meu crescimento profissional e me capacitaram para novos desafios.
+Hoje sou Staff Data Engineer na ZUP Innovation, no time de plataforma de dados do Itaú Unibanco, numa arquitetura Data Mesh que serve centenas de times — analistas, engenheiros, cientistas de dados, modelos em produção.
 
-## Formação Acadêmica
+Meu trabalho não é construir pipelines. É construir a infraestrutura que permite que cada consumidor encontre um dado confiável, documentado e acessível — sem precisar depender de um time central para ter acesso ao que precisa.
 
-Meu percurso acadêmico reflete minha busca contínua por conhecimento. Iniciei com um curso Técnico em Informática no Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE, estabelecendo uma base sólida em conceitos fundamentais de desenvolvimento de software. Posteriormente, cursei boa parte do Bacharelado em Ciência da Computação, embora não tenha concluído o curso, adquirindo conhecimentos essenciais.
+Quando funciona, um analista responde uma pergunta de negócio em horas, não em semanas. Quando não funciona, um modelo de crédito toma decisão com dado errado — e a primeira coisa que ninguém sabe é onde o problema começou.
 
-Concluí na Estácio de Sá o Tecnólogo em Análise e Desenvolvimento de Sistemas. Além disso, busquei especializações na área de dados, concluindo uma Especialização em Ciência de Dados na UNI7 e atualmente cursando Governança de Dados na PUCRS. Essa trajetória acadêmica solidificou minha preparação para enfrentar os desafios do mercado de trabalho com confiança e determinação.
+É nesse espaço que trabalho.
+
+---
+
+Antes disso, na Agenda Edu, atuei como Data Engineer Manager. Entrei como o primeiro engenheiro de dados da empresa — sem time, sem arquitetura, sem cultura de dados. Saí com uma plataforma operacional, um time de dez pessoas, e uma relação próxima com founders e Head of Product para alinhar onde a plataforma precisava chegar, não só o que precisava ser entregue na semana.
+
+O que ficou dessa época: a decisão técnica mais importante raramente é técnica. É sobre o que o negócio precisa confiar, quem precisa ter acesso, e qual é o custo real de estar errado.
+
+---
+
+Escrevo aqui sobre essas decisões — as que tomei, as que evitaria hoje, e as que ainda não têm resposta clara. Se você já ficou na dúvida se o problema era técnico ou de pessoas — e no fundo sabia que era os dois — provavelmente já passou por algo parecido.
