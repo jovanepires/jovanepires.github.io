@@ -1,0 +1,33 @@
+<style>
+  blockquote {
+    position: relative;
+    border-left: 4px solid var(--highlight-color);
+    background-color: var(--base-offset-color);
+    margin: 2rem 0;
+    padding: 1.25rem 1.5rem 1.25rem 1.75rem;
+    border-radius: 0 4px 4px 0;
+  }
+
+  blockquote::before {
+    content: '\201C';
+    position: absolute;
+    top: -0.15rem;
+    left: 0.75rem;
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--highlight-color);
+    opacity: 0.4;
+    font-family: Georgia, serif;
+    pointer-events: none;
+  }
+
+  blockquote p {
+    font-size: 1rem !important;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--text-color) !important;
+    display: block !important;
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+</style>
