@@ -46,11 +46,6 @@ pygmentsUseClasses = true
 
 [menu]
   [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
-    weight = 1
-  [[menu.main]]
     name = "Blog"
     identifier = "blog"
     weight = 2

@@ -2,6 +2,8 @@
 title: 'Sobre'
 description: "Staff Data Engineer na ZUP Innovation, no time de plataforma de dados do Itaú Unibanco. Escrevo sobre as decisões que tomei, as que evitaria hoje, e as que ainda não têm resposta clara."
 url: "/sobre/"
+aliases:
+  - "/"
 # image: images/about.jpg
 ---
 
