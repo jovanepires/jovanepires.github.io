@@ -2,7 +2,8 @@
 title: "15 minutos por tentativa. Era assim que testávamos jobs Glue."
 date: 2024-06-15T00:00:00-03:00
 description: "Como uma fixture de pytest mudou o ciclo de desenvolvimento de centenas de squads — sem mudar uma linha de infraestrutura."
-image: images/spark-pytest-terminal.jpg
+image: images/falesias-praia-ceara-aerea.jpg
+imageCredit: "Foto de [Unsplash](https://unsplash.com/pt-br/fotografias/uma-vista-aerea-de-uma-praia-de-areia-e-oceano-60F46OEg8co)"
 draft: false
 tags: ["data-engineering", "aws-glue", "pyspark", "pytest", "unit-testing", "spark", "developer-experience", "engenharia-de-dados"]
 ---
@@ -76,3 +77,7 @@ Em escala de milhares de jobs, essa diferença se traduz em incidentes evitados 
 - Mock em Spark testa simulação. Spark local com dados sintéticos testa comportamento real — com custo de segundos, não de minutos.
 - Ciclo de feedback longo muda comportamento: menos testes, mais mudanças acumuladas, bugs maiores e mais difíceis de isolar.
 - Setup com atrito mata adoção. A experiência de chegar ao primeiro teste verde é parte do produto.
+
+---
+
+<small>Foto: [Unsplash](https://unsplash.com/pt-br/fotografias/uma-vista-aerea-de-uma-praia-de-areia-e-oceano-60F46OEg8co)</small>
