@@ -3,7 +3,7 @@ title: Sobre
 description: "Specialist Data Engineer na ZUP Innovation, no time de plataforma de dados do Itaú Unibanco. Escrevo sobre as decisões que tomei, as que evitaria hoje, e as que ainda não têm resposta clara."
 ---
 
-Comecei programando em PHP em 2010. Passei por agências, startups e empresas de diferentes setores. Construí sistemas, vi software virar produto, produto virar negócio.
+Comecei programando em PHP em 2010. Passei por outras stacks, agências, startups e empresas de diferentes setores. Construí sistemas, vi software virar produto, produto virar negócio.
 
 Essa base de engenharia de software ficou comigo. Hoje percebo o quanto ela molda como enxergo dados: penso em pipeline como sistema, em dado como contrato, em confiabilidade como consequência de decisões de design. Não de sorte.
 
