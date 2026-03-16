@@ -29,4 +29,4 @@ O que ficou dessa época: a decisão técnica mais importante raramente é técn
 
 ---
 
-Escrevo aqui sobre essas decisões — as que tomei, as que evitaria hoje, e as que ainda não têm resposta clara. Se você já ficou na dúvida se o problema era técnico ou de pessoas — e no fundo sabia que era os dois — provavelmente vai encontrar algo aqui que ressoa.
+Escrevo aqui sobre essas decisões — as que tomei, as que evitaria hoje, e as que ainda não têm resposta clara. Se você já ficou na dúvida se o problema era técnico ou de pessoas — e no fundo sabia que era os dois — provavelmente já passou por algo parecido.
