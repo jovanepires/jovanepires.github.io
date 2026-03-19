@@ -81,7 +81,7 @@ Em termos de tokenização, o efeito é esse: `---` é um token único no `cl100
 
 Tokens sem conteúdo. Espaço desperdiçado.
 
-O estilo Google resolve isso de outra forma também. O formato é mais linear, mais próximo da prosa técnica que domina os corpora de treinamento. Tipo e parâmetro ficam na mesma linha: `col_ref (str):` é uma unidade coesa. No estilo NumPy, a mesma informação está espalhada — nome numa linha, tipo na outra, descrição na terceira. A relação semântica entre eles se fragmenta dentro da janela de contexto.
+O estilo Google resolve isso de outra forma também. O formato é mais linear. Tipo e parâmetro ficam na mesma linha: `col_ref (str):` é uma unidade coesa. No estilo NumPy, a mesma informação está espalhada — nome numa linha, tipo na outra, descrição na terceira. A relação semântica entre eles se fragmenta dentro da janela de contexto.
 
 E modelos são sensíveis a isso.
 
