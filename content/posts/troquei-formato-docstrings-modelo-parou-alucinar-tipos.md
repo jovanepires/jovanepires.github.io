@@ -99,17 +99,13 @@ Testei isso no próprio módulo: gerei embeddings com docstrings no estilo NumPy
 
 ## O leitor que ninguém contou que ia aparecer
 
-Quando aprendi a escrever docstrings, havia um único leitor: o humano que ia manter o código depois de mim.
+Quando aprendi a escrever docstrings, havia um único leitor a considerar: a pessoa que iria manter aquele código depois de mim. Esse leitor continua existindo, mas deixou de ser o único.
 
-Esse leitor ainda existe. Mas agora tem outro.
+Hoje, toda vez que um pipeline de RAG recupera uma função para compor contexto, ou quando um modelo lê o contrato de uma função para sugerir algo coerente, a docstring passa a ser consumida como dado. O formato que você escolheu lá atrás influencia diretamente como essa informação será tokenizada, vetorizada e recuperada.
 
-Cada vez que um pipeline de RAG recupera uma função para compor contexto, cada vez que um modelo lê o contrato de uma função para sugerir algo coerente, a docstring é consumida como dado. O formato que você escolheu lá atrás determina como esse dado vai ser tokenizado, vetorizado e recuperado.
+Docstring deixou de ser apenas documentação. Ela passou a fazer parte do payload do seu pipeline de IA.
 
-Docstring não é mais só documentação. É payload do seu pipeline de IA.
-
-O estilo NumPy tem elegância visual: é o padrão das bibliotecas científicas que admiro, faz sentido em notebooks, em ambientes científicos. Mas para código que alimenta pipelines de RAG e geração de contexto, o estilo Google não é preferência estética.
-
-É uma decisão de engenharia.
+O estilo NumPy continua tendo sua elegância visual, é o padrão das bibliotecas científicas que muitos de nós usamos, funciona bem em notebooks e faz sentido em ambientes mais analíticos. Mas, quando o código passa a alimentar pipelines de RAG e sistemas de geração de contexto, a escolha do formato deixa de ser estética e passa a ser uma decisão de engenharia.
 
 ## O que eu faria diferente
 
