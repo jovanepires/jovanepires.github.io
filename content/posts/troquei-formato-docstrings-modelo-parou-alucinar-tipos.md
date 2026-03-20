@@ -5,23 +5,21 @@ description: "Troquei o formato das minhas docstrings. O modelo parou de alucina
 image: ""
 draft: false
 tags: ["ai-engineering", "rag", "tokenizacao", "python", "docstrings", "bpe", "data-quality", "context-window", "engenharia-de-dados"]
----
+--- 
 
-O modelo errava os tipos. O tempo todo.
+Fui revisitar um projeto antigo de qualidade de dados. Era um módulo que escrevi anos atrás, quando ainda estava aprendendo Python em um contexto mais científico. Tinha funções de completude, unicidade, validação de intervalo. O tipo de código que praticamente todo engenheiro de dados já escreveu várias vezes ao longo da carreira.
 
-Fui revisitar um módulo antigo de qualidade de dados: funções de completude, unicidade, validação de intervalo. Código que escrevi anos atrás, quando ainda estava aprendendo Python num ambiente científico. Estava explorando o uso de SLMs rodando localmente, uma POC para entender o comportamento desses modelos em ambiente próprio. Usei esse módulo como caso de teste para a refatoração.
+Resolvi usar um modelo SLM local para ajudar na refatoração. A ideia parecia boa. Delegar parte do trabalho repetitivo e acelerar ajustes de código.
 
-Ele sugeria parâmetros com tipos errados. Gerava retornos que não batiam com o contrato real. Propunha lógica que ignorava o que estava documentado ali na frente dele.
+O problema é que o modelo errava com frequência. Inferia tipos incorretos para os parâmetros, sugeria retornos inconsistentes com o contrato das funções e, em alguns casos, ignorava completamente o que estava descrito na docstring. Reescrevi o prompt algumas vezes tentando guiar melhor o comportamento, mas o resultado continuava praticamente o mesmo.
 
-Reescrevi o prompt três vezes. Mesmo resultado.
+Na quarta tentativa, ficou claro que o problema não estava apenas no prompt. Fui olhar com mais atenção para o próprio código.
 
-Na quarta tentativa parei de culpar o prompt e fui olhar para o código.
+## O problema não era o prompt
 
-## O problema estava nos traços
+O projeto era antigo e as docstrings seguiam o estilo NumPy. Isso fazia sentido no momento em que escrevi o código. Meu contexto era científico, influenciado por bibliotecas como NumPy, pandas e scikit-learn, onde esse padrão é amplamente utilizado. Na época, simplesmente adotei o formato sem questionar.
 
-As docstrings seguiam o estilo NumPy. Faz sentido: quando aprendi Python, o ambiente era científico: NumPy, pandas, scikit-learn. Todo mundo usava esse formato. Copiei sem questionar, como a gente copia muita coisa no começo.
-
-A função que mais me dava problema era uma regra de completude padrão:
+Uma das funções que mais gerava erro era uma regra simples de completude, bem comum em pipelines de qualidade de dados:
 
 ```python
 def calcular_completude(df, col_ref, col_valor):
@@ -45,7 +43,7 @@ def calcular_completude(df, col_ref, col_valor):
     """
 ```
 
-Rodei o tiktoken com o `cl100k_base` e contei: 192 tokens.
+Rodei o tiktoken com o `cl100k_base` e contei: **148 tokens**.
 
 Reescrevi a mesma função no estilo Google, seguindo o [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html):
 
@@ -65,7 +63,7 @@ def calcular_completude(df, col_ref, col_valor):
     """
 ```
 
-147 tokens. Mesma informação. 23% a menos.
+Dessa vez, a contagem foi de **119 tokens**. A informação era a mesma, mas a estrutura era diferente, resultando em aproximadamente 20% menos tokens.
 
 Mas a contagem era a parte menos interessante do que estava acontecendo.
 
@@ -87,27 +85,17 @@ E modelos são sensíveis a isso.
 
 Um estudo de 2023 da Stanford, "Lost in the Middle: How Language Models Use Long Contexts" (arXiv:2307.03172), mostra que a densidade e a posição da informação na janela de contexto afetam diretamente a qualidade das respostas. Quando a informação relevante está dispersa, o modelo performa pior. A fragmentação de tipo, nome e descrição em linhas separadas produz exatamente isso, dentro da própria docstring.
 
-## O que mudou quando converti
-
-Converti as funções para o estilo Google à mão, função por função. Não queria fazer uma substituição cega. Queria entender o que mudava em cada uma.
-
-Voltei com o mesmo pedido de refatoração que tinha falhado antes.
-
-O modelo acertou os tipos. Inferiu corretamente os casos de erro. Gerou código consistente com o contrato do módulo sem que eu precisasse explicar esse contrato no prompt.
-
-O problema nunca foi o prompt.
-
 ## O problema em escala
 
 Achei que era um detalhe pontual. Aí fiz a conta.
 
 Um catálogo de data quality em produção tem dezenas, às vezes centenas de regras, cada uma com sua docstring. Quando você injeta esse módulo numa janela de contexto para gerar documentação, analisar cobertura ou sugerir novas regras, o conteúdo inteiro entra junto.
 
-A diferença medida foi de 45 tokens por função. Em 100 funções, são 4.500 tokens a mais por chamada. Tokens que poderiam estar sendo usados por lógica de negócio, exemplos de uso ou contexto de domínio.
+A diferença medida foi de cerca de 29 tokens por função. Em 100 funções, são aproximadamente 2.900 tokens a mais por chamada. Tokens que poderiam estar sendo usados por lógica de negócio, exemplos de uso ou contexto de domínio.
 
-O impacto em RAG é ainda mais direto. Se você mantém um catálogo com busca semântica, padrão em plataformas de data quality, os embeddings gerados a partir de docstrings no estilo NumPy carregam ruído estrutural. Tokens sem conteúdo semântico contribuem para o vetor como ruído. A representação fica menos fiel ao significado real da função.
+O impacto em RAG é ainda mais direto. Se você mantém um catálogo com busca semântica, padrão em plataformas de data quality, os embeddings gerados a partir de docstrings mais verbosas e com ruído estrutural tendem a representar pior o significado real da função. Tokens sem conteúdo semântico competem por espaço no vetor e reduzem a qualidade da representação.
 
-Testei no próprio módulo: gerei embeddings com docstrings no estilo NumPy, avaliei a recuperação, depois gerei de novo no estilo Google. A diferença de precisão foi clara o suficiente para mudar meu padrão de vez.
+Testei isso no próprio módulo: gerei embeddings com docstrings no estilo NumPy, avaliei a recuperação, depois gerei novamente no estilo Google. A diferença não foi absoluta, mas foi consistente o suficiente para influenciar minha decisão de padrão.
 
 ## O leitor que ninguém contou que ia aparecer
 
@@ -133,9 +121,11 @@ Não defini nenhuma dessas métricas antes de começar. O aprendizado ficou meno
 
 Aprendi o resultado. Não aprendi a medir o resultado.
 
-Hoje todo projeto começa com o estilo Google. Não por estética. O estilo NumPy tem uma elegância que o Google não tem. Mas a docstring tem dois leitores agora.
+Hoje, todo projeto novo começa com docstrings no estilo Google. Não por uma questão estética, mas porque, nesse contexto, ele se mostrou mais eficiente.
 
-Escrevo para os dois.
+A docstring ainda é documentação. Mas agora ela também é interface com o modelo.
+
+E isso muda a forma como eu escrevo.
 
 ## Conclusões
 
