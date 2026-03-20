@@ -3,13 +3,13 @@ title: "Docstring é input de modelo. E o formato importa."
 date: 2026-03-19T00:00:00-03:00
 description: "Troquei o formato das minhas docstrings. O modelo parou de alucinar."
 image: ""
-draft: true
+draft: false
 tags: ["ai-engineering", "rag", "tokenizacao", "python", "docstrings", "bpe", "data-quality", "context-window", "engenharia-de-dados"]
 ---
 
 O modelo errava os tipos. O tempo todo.
 
-Fui revisitar um módulo antigo de qualidade de dados: funções de completude, unicidade, validação de intervalo. Código que escrevi anos atrás, quando ainda estava aprendendo Python num ambiente científico. Resolvi usar um SLM local para ajudar na refatoração.
+Fui revisitar um módulo antigo de qualidade de dados: funções de completude, unicidade, validação de intervalo. Código que escrevi anos atrás, quando ainda estava aprendendo Python num ambiente científico. Estava explorando o uso de SLMs rodando localmente, uma POC para entender o comportamento desses modelos em ambiente próprio. Usei esse módulo como caso de teste para a refatoração.
 
 Ele sugeria parâmetros com tipos errados. Gerava retornos que não batiam com o contrato real. Propunha lógica que ignorava o que estava documentado ali na frente dele.
 
@@ -85,7 +85,7 @@ O estilo Google resolve isso de outra forma também. O formato é mais linear. T
 
 E modelos são sensíveis a isso.
 
-Liu et al. (2023), em "[Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)" (Stanford, UC Berkeley e Samaya AI), mostraram que o desempenho do modelo cai quando a informação relevante está dispersa no contexto. O efeito acontece até dentro de uma docstring. Quando tipo, nome e descrição estão em linhas diferentes, o modelo precisa conectar fragmentos em vez de ler uma unidade.
+Um estudo de 2023 da Stanford, "Lost in the Middle: How Language Models Use Long Contexts" (arXiv:2307.03172), mostra que a densidade e a posição da informação na janela de contexto afetam diretamente a qualidade das respostas. Quando a informação relevante está dispersa, o modelo performa pior. A fragmentação de tipo, nome e descrição em linhas separadas produz exatamente isso, dentro da própria docstring.
 
 ## O que mudou quando converti
 
