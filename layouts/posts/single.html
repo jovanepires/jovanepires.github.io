@@ -4,6 +4,7 @@
   <div class="blog">
     <div class="intro">
       <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+      {{ if .Params.description }}<p class="post-description">{{ .Params.description }}</p>{{ end }}
       {{ partial "author-large.html" . }}
       {{ if .Params.image }}
       <img alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
