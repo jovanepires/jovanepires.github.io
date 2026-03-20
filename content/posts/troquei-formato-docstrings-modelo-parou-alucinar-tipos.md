@@ -1,7 +1,7 @@
 ---
-title: "Docstring é input de modelo. E o formato importa."
+title: "Docstring é input de modelo, e o formato importa"
 date: 2026-03-19T00:00:00-03:00
-description: "Troquei o formato das minhas docstrings. O modelo parou de alucinar."
+description: "Troquei o formato das minhas docstrings... o modelo parou de alucinar."
 image: ""
 draft: false
 tags: ["ai-engineering", "rag", "tokenizacao", "python", "docstrings", "bpe", "data-quality", "context-window", "engenharia-de-dados"]
