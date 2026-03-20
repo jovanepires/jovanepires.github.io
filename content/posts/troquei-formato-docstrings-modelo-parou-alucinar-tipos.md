@@ -113,19 +113,13 @@ O estilo NumPy tem elegância visual: é o padrão das bibliotecas científicas 
 
 ## O que eu faria diferente
 
-Instrumentar antes de experimentar.
+Se eu fosse repetir esse experimento, começaria instrumentando antes de sair testando. No fim de semana, eu terminei com evidências qualitativas de que algo tinha melhorado, mas poderia ter saído com métricas claras que sustentassem melhor a decisão. Poderia ter acompanhado a taxa de acerto de tipos nas sugestões do modelo, o número de rejeições manuais e até a precisão@K na recuperação vetorial com K fixo.
 
-Saí desse fim de semana com evidências qualitativas quando poderia ter saído com métricas. Taxa de acerto de tipo nas sugestões do modelo. Número de rejeições manuais. Precisão@K na recuperação vetorial com K fixo.
+Como não defini essas métricas antes de começar, o aprendizado ficou menos transferível do que poderia ter sido. Eu sei que o resultado melhorou, mas não tenho uma forma objetiva de medir o quanto melhorou ou de comparar com outros cenários.
 
-Não defini nenhuma dessas métricas antes de começar. O aprendizado ficou menos transferível do que poderia ter sido.
+No fim, aprendi o resultado, mas não aprendi a medir o resultado.
 
-Aprendi o resultado. Não aprendi a medir o resultado.
-
-Hoje, todo projeto novo começa com docstrings no estilo Google. Não por uma questão estética, mas porque, nesse contexto, ele se mostrou mais eficiente.
-
-A docstring ainda é documentação. Mas agora ela também é interface com o modelo.
-
-E isso muda a forma como eu escrevo.
+Hoje, todo projeto novo já começa com docstrings no estilo Google, não por uma questão estética, mas porque, nesse contexto, ele se mostrou mais eficiente. A docstring continua sendo documentação, mas também passou a funcionar como uma interface com o modelo, e isso inevitavelmente muda a forma como eu escrevo.
 
 ## Conclusões
 
