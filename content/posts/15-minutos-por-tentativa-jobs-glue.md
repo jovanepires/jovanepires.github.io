@@ -1,7 +1,7 @@
 ---
-title: "15 minutos por tentativa. Era assim que testávamos jobs Glue."
+title: "15 minutos por tentativa. Era assim que testávamos jobs Glue"
 date: 2024-06-15T00:00:00-03:00
-description: "Como uma fixture de pytest mudou o ciclo de desenvolvimento de centenas de squads — sem mudar uma linha de infraestrutura."
+description: "Como uma fixture de pytest mudou o ciclo de desenvolvimento de várias squads, sem alterar uma linha de infraestrutura"
 image: images/falesias-praia-ceara-aerea.jpg
 imageCredit: "Foto de [Unsplash](https://unsplash.com/pt-br/fotografias/uma-vista-aerea-de-uma-praia-de-areia-e-oceano-60F46OEg8co)"
 draft: false
